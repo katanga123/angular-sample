@@ -1,0 +1,56 @@
+.at-auth-container {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+
+  .at-auth-cover {
+    display: flex;
+    width: 1100px;
+    height: 480px;
+    background-color: white;
+
+    .at-left {
+      width: 30%;
+      position: relative;
+      padding: 30px 35px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .at-right {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
+      padding: 30px 35px;
+      justify-content: center;
+      align-items: center;
+
+      .at-login-form {
+        display: flex;
+        flex-direction: column;
+        min-width: 150px;
+        max-width: 350px;
+        width: 100%;
+
+        .form-footer {
+          margin-top: 10px;
+
+          .mat-stroked-button {
+            border: none;
+            border-radius: 0;
+            padding: 0px 30px;
+          }
+        }
+      }
+    }
+  }
+}

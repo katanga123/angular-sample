@@ -1,1 +1,117 @@
 /* You can add global styles to this file, and also import other style files */
+// TEXT COLOR
+
+// Primary
+$gray: #3B3B3B;
+$red: #E64D4D;
+$light-grey: #F5F5F5;
+
+// Secondary
+$yellow: #FFE100;
+$green: #45EB9F;
+
+// Grayscale
+$white: #ffffff;
+$medium-grey: #A0A0A0;
+$medium-grey-50: #888888;
+$black: #3b3b3b;
+
+body {
+  font-family: Averi-Next;
+  font-size: 18px;
+  line-height: 1.4;
+  padding: 0;
+  margin: 0;
+  background-color: $light-grey;
+  height: 100%;
+
+  .text-sm {
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+
+  .at-h1 {
+    font-size: 45px;
+    line-height: 1;
+    font-family: Averi-Next-Demi;
+    font-weight: 500;
+  }
+
+  .at-h2 {
+    font-size: 28px;
+    line-height: 1;
+    font-family: Averi-Next-Demi;
+  }
+
+  .at-h3 {
+    font-size: 22px;
+    line-height: 1;
+    font-family: Averi-Next-Demi;
+  }
+
+  .at-h4 {
+    font-size: 18px;
+    line-height: 1;
+    font-family: Averi-Next-Demi;
+  }
+
+  .at-h5 {
+    font-size: 16px;
+    line-height: 1;
+    font-family: Averi-Next-Demi;
+  }
+}
+
+// text color
+.text-white {
+  color: $white;
+}
+
+.text-base {
+  color: $red;
+}
+
+// END text colot
+
+// BG
+.bg-primary {
+  background-color: $gray;
+}
+
+.bg-base {
+  background-color: $red;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-light-gray {
+  background-color: $light-grey;
+}
+
+.bg-medium-gray {
+  background-color: $medium-grey;
+}
+
+.bg-gray {
+  background-color: $medium-grey-50;
+}
+
+// END BG
+
+// display
+.flex {
+  display: flex;
+}
+
+// alig items
+.align-center {
+  align-items: center;
+}
+
+// justify
+
+.space-between {
+  justify-content: space-between;
+}
